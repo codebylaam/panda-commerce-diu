@@ -1,0 +1,52 @@
+:root {
+  --pink: #ff136f;
+  --pink-light: #ff589b;
+  --blush: #fceae8;
+  --grey-bg: #f7f7f7;
+}
+
+* { font-family: "Josefin Sans", sans-serif; }
+
+.section-gap { margin-bottom: 50px; }
+.accent { color: var(--pink); }
+
+.blush-panel { background-color: var(--blush); border-radius: 10px; }
+.carousel-item { padding: 20px 40px; }
+
+.btn-pink {
+  background-image: linear-gradient(to bottom, var(--pink-light), var(--pink));
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 25px;
+  cursor: pointer;
+}
+
+/* Category tiles */
+.tile {
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+.tile-watch { background-image: radial-gradient(circle farthest-corner at 10% 20%, #ffd143 0%, #ff9153 90%); }
+.tile-bag   { background-image: radial-gradient(circle farthest-corner at 10% 20%, #934343 0%, #6f1b1b 90%); }
+.tile-shoes { background-image: radial-gradient(circle farthest-corner at 10% 20%, #2591fb 0.1%, #000780 99.8%); }
+
+/* Products */
+.grey-band { background-color: var(--grey-bg); padding: 20px 0; margin-bottom: 20px; }
+.see-all { text-decoration: none; cursor: pointer; }
+.product-card { border: none; box-shadow: 5px 5px 10px lightgrey; }
+.product-card .card-body { text-align: center; }
+.btn-dark-grad {
+  background-image: linear-gradient(94.3deg, #1a2140 10.9%, #515473 87.1%);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+/* Newsletter */
+#contact { height: 250px; }
+.email-input { border: 1px solid transparent; border-radius: 4px; padding: 7px; }
+.email-input:focus { border-color: lightskyblue; outline: none; }
